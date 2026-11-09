@@ -1,12 +1,10 @@
-# 🌿 GeoCampo — Plataforma de Gestión de Potreros y Pastoreo
+# GeoCampo — Plataforma de Gestión de Potreros y Pastoreo
 
 Sistema web completo para productores ganaderos y tamberos que digitaliza la delimitación satelital de potreros, el aforo de pasturas, el seguimiento histórico del rodeo y la rotación oportuna de lotes mediante un semáforo agronómico inteligente.
 
-Diseñado sobre el caso real de referencia de un **tambo de 117 hectáreas en El Arañado, Córdoba**, gestionado por un único perfil de usuario (**Productor / Dueño**).
-
 ---
 
-## 🚀 Stack Tecnológico
+## Stack Tecnológico
 
 - **Frontend**: HTML5 + CSS3 + JavaScript (ES6+).
 - **Mapa Satelital**: `Leaflet.js` + `Leaflet.draw` + Capa satelital `Esri World Imagery`.
@@ -17,7 +15,7 @@ Diseñado sobre el caso real de referencia de un **tambo de 117 hectáreas en El
 
 ---
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 Antes de arrancar el proyecto, asegúrate de tener instalado:
 
@@ -32,7 +30,7 @@ Antes de arrancar el proyecto, asegúrate de tener instalado:
 
 ---
 
-## 🛠️ Guía Paso a Paso para Arrancar en Modo Desarrollo
+## Guía Paso a Paso para Arrancar en Modo Desarrollo
 
 ### 1. Clonar o abrir el proyecto
 
@@ -110,11 +108,11 @@ npm run dev
 
 Verás en consola un mensaje indicando que el servidor está activo. Abre tu navegador en:
 
-👉 **http://localhost:3000**
+**http://localhost:3000**
 
 ---
 
-## 🔑 Credenciales de Prueba (Seed Inicial)
+## Credenciales de Prueba (Seed Inicial)
 
 Para ingresar al sistema en `http://localhost:3000`:
 
@@ -123,7 +121,7 @@ Para ingresar al sistema en `http://localhost:3000`:
 
 ---
 
-## 📜 Scripts Disponibles en `package.json`
+## Scripts Disponibles en `package.json`
 
 | Comando | Descripción |
 | :--- | :--- |
@@ -134,7 +132,7 @@ Para ingresar al sistema en `http://localhost:3000`:
 
 ---
 
-## 🩺 Solución de Problemas Comunes (Troubleshooting)
+## Solución de Problemas Comunes 
 
 - **El puerto `3000` ya está en uso (`EADDRINUSE`):**
   Abre el archivo `.env` y cambia `PORT=3000` por otro puerto libre (por ejemplo, `PORT=3001`), luego reinicia `npm run dev`.
@@ -145,7 +143,7 @@ Para ingresar al sistema en `http://localhost:3000`:
 
 ---
 
-## ☁️ Despliegue en Railway o Render
+## Despliegue en Railway o Render
 
 1. Suba el repositorio a GitHub.
 2. Cree un servicio **MySQL** en Railway o conecte una base MySQL externa en Render.
