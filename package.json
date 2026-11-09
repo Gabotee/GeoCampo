@@ -1,0 +1,35 @@
+{
+  "name": "geocampo",
+  "version": "1.0.0",
+  "description": "Plataforma web de gestión de potreros, pasturas y rotación de pastoreo (Tambo 117 ha - El Arañado, Córdoba)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:init": "node src/scripts/initDb.js",
+    "test:api": "node src/scripts/verifyAllStories.js"
+  },
+  "keywords": [
+    "ganaderia",
+    "potreros",
+    "pastoreo",
+    "tambo",
+    "leaflet",
+    "turfjs",
+    "mysql",
+    "express"
+  ],
+  "author": "GeoCampo",
+  "license": "MIT",
+  "dependencies": {
+    "@turf/turf": "^7.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.16"
+  }
+}
