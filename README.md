@@ -39,7 +39,7 @@ Antes de arrancar el proyecto, asegúrate de tener instalado:
 Abre una terminal y sitúate en la carpeta raíz del proyecto (`GeoCampo`):
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/Gabotee/GeoCampo.git
 cd GeoCampo
 ```
 *(Si recibiste el proyecto en un archivo `.zip`, descomprímelo y abre la terminal dentro de la carpeta `GeoCampo`).*
